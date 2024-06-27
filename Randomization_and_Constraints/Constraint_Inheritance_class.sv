@@ -11,7 +11,7 @@ class child_class extends parent_class;
 endclass
 
 // Define a module to create instances of the parent and child classes and display random values
-module outline;
+module driv;
   parent_class pkt1 = new();  // Create a new instance of 'parent_class'
   child_class pkt2 = new();  // Create a new instance of 'child_class'
   initial begin
